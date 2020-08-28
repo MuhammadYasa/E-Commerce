@@ -2,7 +2,8 @@
 {% load static %}
 {% block content %} <!-- karena di bawah kita itu akan ada konten -->
 
-<div>
+<div class="row">
+<!--    row ke samping, kalau kolom ke bawah-->
     <div class="col-lg-4">
 <!--        ini maksudnya ukuran kolom kita, lg itu large-->
         <img class="thumbnail" src="{% static 'images/placeholder.png'%}">
@@ -10,10 +11,9 @@
             <!--        membuat box untuk product-->
             <h6><strong>Product</strong></h6>
             <hr>
-
             <button class="btn btn-outline-secondary add-btn">Add to Cart</button>
 <!--            membuat button untuk menambahkan ke cart-->
-            <a class="btn btn-outline success" href="#">View</a>
+            <a class="btn btn-outline-success" href="#">View</a>
 <!--            membuat botton view-->
             <h4 style="display: inline-block; float:right"><strong>$20</strong></h4>
 <!--            membuat harga di samping gambar-->
@@ -22,15 +22,35 @@
     </div>
 
     <div class="col-lg-4">
-<!--        ini maksudnya ukuran kolom kita-->
-            <div class="box-element product"></div>
-<!--        membuat box untuk product-->
+<!--        ini maksudnya ukuran kolom kita, lg itu large-->
+        <img class="thumbnail" src="{% static 'images/placeholder.png'%}">
+        <div class="box-element product">
+            <!--        membuat box untuk product-->
+            <h6><strong>Product</strong></h6>
+            <hr>
+            <button class="btn btn-outline-secondary add-btn">Add to Cart</button>
+<!--            membuat button untuk menambahkan ke cart-->
+            <a class="btn btn-outline-success" href="#">View</a>
+<!--            membuat botton view-->
+            <h4 style="display: inline-block; float:right"><strong>$20</strong></h4>
+<!--            membuat harga di samping gambar-->
+        </div>
     </div>
 
     <div class="col-lg-4">
-<!--        ini maksudnya ukuran kolom kita-->
-        <div class="box-element product"></div>
-<!--        membuat box untuk product-->
+<!--        ini maksudnya ukuran kolom kita, lg itu large-->
+        <img class="thumbnail" src="{% static 'images/placeholder.png'%}">
+        <div class="box-element product">
+            <!--        membuat box untuk product-->
+            <h6><strong>Product</strong></h6>
+            <hr>
+            <button class="btn btn-outline-secondary add-btn">Add to Cart</button>
+<!--            membuat button untuk menambahkan ke cart-->
+            <a class="btn btn-outline-success" href="#">View</a>
+<!--            membuat botton view-->
+            <h4 style="display: inline-block; float:right"><strong>$20</strong></h4>
+<!--            membuat harga di samping gambar-->
+        </div>
     </div>
 </div>
 
